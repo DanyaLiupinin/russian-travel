@@ -1,8 +1,6 @@
-
 .header__lang-links {
    margin-bottom: 6px;
    display: flex;
-   outline: 1px solid white;
 }
 
 @media (max-width: 310px) {

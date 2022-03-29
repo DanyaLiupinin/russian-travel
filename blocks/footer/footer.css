@@ -1,11 +1,9 @@
-
 .footer {
    display: flex;
    flex-direction: row;
    margin: 92px auto 24px;
    justify-content: space-between;
    max-width: 1184px;
-   outline: 1px solid red;
 }
 
 @media screen and (max-width: 1279px) {

@@ -4,7 +4,6 @@
    margin-bottom: 0;
    margin-left: auto;
    margin-right: auto;
-   outline: 1px solid pink;
 }
 
 @media screen and (max-width: 1279px) {
@@ -31,9 +30,10 @@
    }
 }
 
+
 @media (max-width: 295px) {
    .content {
-      max-width: calc(100vw - 2%);
+      min-width: 0;
    }
 }
 

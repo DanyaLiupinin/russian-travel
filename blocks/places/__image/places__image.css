@@ -1,7 +1,6 @@
 .places__image {
    max-width: 46%;
    height: 46%;
-   outline: 1px solid white;
 }
 
 @media (max-width: 570px) {
