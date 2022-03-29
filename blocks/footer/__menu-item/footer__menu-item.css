@@ -1,0 +1,15 @@
+
+.footer__menu-item {
+   margin-left: 18px;
+}
+
+.footer__menu-item:first-child {
+   margin-left: 0;
+}
+
+@media (max-width: 600px) {
+   .footer__menu-item {
+      margin-left: 0;
+      margin-bottom: 32px;
+   }
+}

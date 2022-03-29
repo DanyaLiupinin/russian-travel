@@ -1,0 +1,15 @@
+
+.places__first-row {
+   outline: 1px solid white;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   height: auto;
+   justify-content: space-between;
+}
+
+@media (max-width: 570px) {
+   .places__first-row {
+      flex-direction: column;
+   }
+}

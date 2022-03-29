@@ -1,0 +1,10 @@
+.places__place {
+   outline: 1px solid blue;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 80px;
+}
+
+.places__place:last-child {
+   margin-bottom: 92px;
+}

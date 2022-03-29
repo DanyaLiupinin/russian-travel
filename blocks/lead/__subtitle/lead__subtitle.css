@@ -1,0 +1,29 @@
+
+.lead__subtitle {
+   text-align: center;
+   border: 1px solid red;
+   max-width: 640px;
+   margin: 0 auto 64px;
+   font-size: 30px;
+   font-weight: normal;
+   font-family: Inter;
+   font-style: normal;
+   line-height: 1.2;
+   height: auto;
+}
+
+@media (max-width: 1279px) {
+   .lead__subtitle {
+      margin-bottom: 56px;
+   }
+}
+
+@media (max-width: 767px) {
+   .lead__subtitle {
+      font-size: 16px;
+      margin-bottom: 56px;
+      max-width: calc(100vw - (1% * 2)); 
+   }
+}
+
+

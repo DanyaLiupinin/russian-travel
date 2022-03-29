@@ -1,0 +1,25 @@
+
+.header__lang-link {
+   outline: 1px solid red;
+   color: white;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+   text-decoration: none;
+   width: 30px;
+   height: 28px;
+}
+
+.header__lang-link:first-child {
+   margin-right: 18px;
+   text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+   .header__lang-link {
+      min-width: 22px;
+      min-height: 20px;
+   }
+}
