@@ -1,18 +1,25 @@
 .photo-grid {
    margin: 92px -100px 0 -100px;
    max-width: 1184px;
+   display: -ms-grid;
    display: grid;
+   -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
    grid-template-columns: repeat(4, 1fr);
-   column-gap: 16px;
+   -webkit-column-gap: 16px;
+      -moz-column-gap: 16px;
+           column-gap: 16px;
    row-gap: 16px;
 }
 
 @media screen and (max-width: 1279px) {
    .photo-grid {
+      -ms-grid-columns: 1fr 14px 1fr 14px 1fr;
       grid-template-columns: repeat(3, 1fr);
       margin-left: 0;
       margin-right: 0;
-      column-gap: 14px;
+      -webkit-column-gap: 14px;
+         -moz-column-gap: 14px;
+              column-gap: 14px;
       row-gap: 14px;
    }
 }
@@ -20,8 +27,11 @@
 @media (max-width: 1023px) {
    .photo-grid {
       margin-top: 88px;
+      -ms-grid-columns: 1fr 16px 1fr;
       grid-template-columns: repeat(2, 1fr);
-      column-gap: 16px;
+      -webkit-column-gap: 16px;
+         -moz-column-gap: 16px;
+              column-gap: 16px;
       row-gap: 16px;
    }
 }
@@ -29,6 +39,7 @@
 @media (max-width: 767px) {
    .photo-grid {
       margin-top: 64px;
+      -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
       row-gap: 12px;
    }
