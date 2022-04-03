@@ -9,6 +9,8 @@
 @media (max-width: 600px) {
    .footer__menu-item {
       margin-left: 0;
+   }
+   .footer__menu-item:not(:last-child) {
       margin-bottom: 32px;
    }
 }

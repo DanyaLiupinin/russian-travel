@@ -1,5 +1,5 @@
 .cover__subtitle {
-   font-family: Inter;
+   font-family: Inter, Arial, Helvetica, sans-serif;
    font-size: 18px;
    font-style: normal;
    font-weight: 400;
@@ -21,5 +21,11 @@
 @media (max-width: 460px) {
    .cover__subtitle {
       max-width: calc(100vw - (1% * 2)); 
+   }
+}
+
+@media (max-width: 320px) {
+   .cover__subtitle {
+      max-width: calc(100vw - (16px * 2));
    }
 }

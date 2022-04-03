@@ -5,7 +5,7 @@
    display: flex;
 }
 
-@media (max-width: 310px) {
+@media (max-width: 260px) {
    .header__lang-links {
       -ms-flex-pack: distribute;
           justify-content: space-around;
