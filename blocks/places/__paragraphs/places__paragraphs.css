@@ -1,8 +1,8 @@
 .places__paragraphs {
-   width: 50%;
+   width: 49%;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 500px) {
    .places__paragraphs {
       width: 100%;
    }

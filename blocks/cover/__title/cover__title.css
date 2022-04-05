@@ -20,15 +20,9 @@
    }
 }
 
-
-@media (max-width: 460px) {
+@media (max-width: 500px) {
    .cover__title {
-      max-width: calc(100vw - (1% * 2)); 
+      max-width: 288px;
    }
 }
 
-@media (max-width: 320px) {
-   .cover__title {
-      max-width: calc(100vw - (16px * 2));
-   }
-}

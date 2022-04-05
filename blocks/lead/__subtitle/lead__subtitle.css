@@ -19,15 +19,13 @@
 @media (max-width: 767px) {
    .lead__subtitle {
       font-size: 16px;
-      margin-bottom: 56px;
-      max-width: calc(100vw - (1% * 2)); 
    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
    .lead__subtitle {
       margin-bottom: 40px;
-      max-width: calc(100vw - (16px * 2)); 
+      max-width: 288px;
    }
 }
 

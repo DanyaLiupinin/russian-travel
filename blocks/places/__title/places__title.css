@@ -6,7 +6,7 @@
    line-height: 1.05;
    text-align: left;
    margin: 0;
-   width: 46%;
+   width: 47%;
 }
 
 
@@ -16,14 +16,16 @@
    }
 }
 
-@media (max-width: 570px) {
-   .places__title {
-      width: 100%;
-   }
-}
-
 @media (max-width: 767px) {
    .places__title {
       font-size: 32px;
    }
 }
+
+@media (max-width: 500px) {
+   .places__title {
+      width: 100%;
+   }
+}
+
+

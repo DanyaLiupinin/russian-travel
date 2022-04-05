@@ -6,7 +6,6 @@
    font-weight: 400;
    line-height: 28px;
    text-decoration: none;
-   width: 30px;
    margin-right: 18px;
 }
 
@@ -21,6 +20,5 @@
 @media (max-width: 500px) {
    .header__lang-link {
       font-size: 18px;
-      width: 20px;
    }
 }

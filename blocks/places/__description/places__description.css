@@ -1,4 +1,4 @@
-.places__first-row {
+.places__description {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -6,20 +6,18 @@
    -webkit-box-direction: normal;
        -ms-flex-direction: row;
            flex-direction: row;
-   -webkit-box-align: end;
-       -ms-flex-align: end;
-           align-items: flex-end;
-   height: auto;
    -webkit-box-pack: justify;
        -ms-flex-pack: justify;
            justify-content: space-between;
+   margin-top: 48px;
 }
 
-@media (max-width: 570px) {
-   .places__first-row {
+@media (max-width: 500px) {
+   .places__description {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
+      margin-top: 32px;
    }
 }
