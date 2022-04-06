@@ -24,7 +24,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .places {
         margin-left: 0;
         margin-right: 0;

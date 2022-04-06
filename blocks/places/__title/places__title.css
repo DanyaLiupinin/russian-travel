@@ -22,7 +22,7 @@
    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
    .places__title {
       width: 100%;
    }
