@@ -1,13 +1,17 @@
-# Проект: Путешествие по России
+# Project: Travel to Russia
 
-### Описание проекта
-Данный проект посвящен путешествиям по России. Он знакомит людей с самыми живописными уголками страны, куда при желании может отправить каждый.
+### Project description
+This project is dedicated to traveling in Russia. He introduces people to the most picturesque corners of the country, where everyone can go if desired.
 
-## Технологии ##
-В проекте применяется базовый инструментарий html и css. Так же в нём использованы компонентный подход к веб-разработке - БЭМ, flex и grid верстка. Данный проект адаптирован под все устройства - начиная с телефонов и заканчивая широформатными мониторами.
+## Technologies ##
+- HTML
+- CSS
+- Adaptive layout
+- Bem methodology
+- Flex and Grid layout
+- Cross-browser layout
 
-## Использование ##
-В проекте использованы языки html5 и css3. Проект предназначен для браузеров на движке webkit, а так же для браузера mozilla firefox.
+The project is designed for webkit-based browsers, as well as for the mozilla firefox browser.
 
-## Ссылка на проект ##
+## Link ##
 > https://danyaliupinin.github.io/russian-travel/index.html
