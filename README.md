@@ -13,5 +13,11 @@ This project is dedicated to traveling in Russia. He introduces people to the mo
 
 The project is designed for webkit-based browsers, as well as for the mozilla firefox browser.
 
+## Working with the project:
+
+Clone repository:
+
+``` git clone https://github.com/DanyaLiupinin/russian-travel.git ```
+
 ## Link ##
 > https://danyaliupinin.github.io/russian-travel/index.html
