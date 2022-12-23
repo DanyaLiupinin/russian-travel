@@ -1,7 +1,7 @@
 # Project: Travel to Russia
 
-### Project description
-This project is dedicated to traveling in Russia. He introduces people to the most picturesque corners of the country, where everyone can go if desired.
+## Description
+This project is dedicated to traveling in Russia. It introduces people to the most picturesque corners of the country, where everyone can go if desired.
 
 ## Technologies ##
 - HTML
@@ -20,4 +20,4 @@ Clone repository:
 ``` git clone https://github.com/DanyaLiupinin/russian-travel.git ```
 
 ## Link ##
-> https://danyaliupinin.github.io/russian-travel/index.html
+https://danyaliupinin.github.io/russian-travel/index.html
